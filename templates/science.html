@@ -1,0 +1,104 @@
+{%extends "layout.html" %}
+{%block body%}
+
+<!-- Page Header-->
+
+<link rel="stylesheet" href="{{ url_for('static', filename='css/table-styles.css') }}">
+
+<header class="masthead" style="background-image: url(https://i.pinimg.com/736x/45/d9/d9/45d9d908783fd316510a216a50eb0c97.jpg);">
+	<div class="container position-relative px-4 px-lg-5">
+<div class="row gx-4 gx-lg-5 justify-content-center">
+	<div class="col-md-10 col-lg-8 col-xl-7">
+		<div class="site-heading">
+			<h1></h1>
+			<span class="subheading"></span>
+		</div>
+	</div>
+</div>
+</div>
+</header>
+
+
+<body>
+    <div class="table-container">
+        <h1>Chapters</h1>
+		<p>click on the chapter name</p>
+        <table>
+            <thead>
+                <tr>
+                    <th>Serial Number</th>
+                    <th>Chapter</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td><a href="/science1">Chapter 1: Chemical Reactions and Equations</a></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td><a href="/science2">Chapter 2: Acids, Bases, and Salts</a></td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td><a href="/science3">Chapter 3: Metals and Non-metals</a></td>
+                </tr>
+				<tr>
+                    <td>4</td>
+                    <td><a href="/science4">Chapter 4: Carbon and its Compounds</a></td>
+                </tr>
+				<tr>
+                    <td>5</td>
+                    <td><a href="/science5">Chapter 5: Periodic Classification of Elements</a></td>
+                </tr>
+				<tr>
+                    <td>6</td>
+                    <td><a href="/science6">Chapter 6: Life Processes</a></td>
+                </tr>
+				<tr>
+                    <td>7</td>
+                    <td><a href="/science7">Chapter 7: Carbon and its Compounds</a></td>
+                </tr>
+				<tr>
+                    <td>8</td>
+                    <td><a href="/science8">Chapter 8: How do Organisms Reproduce?</a></td>
+                </tr>
+				<tr>
+                    <td>9</td>
+                    <td><a href="/science9">Chapter 9: Heredity and Evolution</a></td>
+                </tr>
+				<tr>
+                    <td>10</td>
+                    <td><a href="/science10">Chapter 10: Light Reflection and Refraction</a></td>
+                </tr>
+				<tr>
+                    <td>11</td>
+                    <td><a href="/science11">Chapter 11: The Human Eye and The Colorful World</a></td>
+                </tr>
+				<tr>
+                    <td>12</td>
+                    <td><a href="/science12">Chapter 12: Electricity</a></td>
+                </tr>
+				<tr>
+                    <td>13</td>
+                    <td><a href="/science13">Chapter 13: Magnetic Effects of Electric Current</a></td>
+                </tr>
+				<tr>
+                    <td>14</td>
+                    <td><a href="/science14">Chapter 14: Sources of Energy</a></td>
+                </tr>
+				<tr>
+                    <td>15</td>
+                    <td><a href="/science15">Chapter 15: Our Environment</a></td>
+                </tr>
+				<tr>
+                    <td>16</td>
+                    <td><a href="/science16">Chapter 15: Sustainable Management of Natural Resources</a></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+
+
+{% endblock %}

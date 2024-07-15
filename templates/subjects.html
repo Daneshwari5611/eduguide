@@ -1,0 +1,57 @@
+{%extends "layout.html" %}
+{%block body%}
+        <!-- Page Header-->
+		<header class="masthead" style="background-image: url(https://img.freepik.com/premium-photo/black-educational-background-with-white-handdrawn-illustrations-black-educational-background_483187-2407.jpg);">
+            <div class="container position-relative px-4 px-lg-5">
+        <div class="row gx-4 gx-lg-5 justify-content-center">
+            <div class="col-md-10 col-lg-8 col-xl-7">
+                <div class="site-heading">
+                    <h1>Subjects</h1>
+                    <span class="subheading"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+        <!-- Main Content-->
+        <main class="mb-4">
+			<head>
+				
+				</head>
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="row">
+						<div class="column">
+						  <a href="/science"><img src="{{url_for('static',filename='images/science.jpg') }}" alt="Snow" style="width:100%"></a>
+						</div>
+						<div class="column">
+						  <a href="/maths"><img src="{{url_for('static',filename='images/maths.jpg') }}"alt="Forest" style="width:100%"></a>
+						</div>
+						<div class="column">
+						 <a href="/social"><img src="{{url_for('static',filename='images/social.jpg') }}" alt="Mountains" style="width:100%"></a>
+						</div>
+					  </div>
+					  <div class="row">
+						<div class="column">
+						<a href="/english"><img src="{{url_for('static',filename='images/english.jpg') }}" alt="Snow" style="width:100%"></a>
+						</div>
+						<div class="column">
+						<a href="/kannada"><img src="{{url_for('static',filename='images/kannada.jpg') }}"alt="Forest" style="width:100%"></a>
+						</div>
+						<div class="column">
+						<a href="/hindi"><img src="{{url_for('static',filename='images/hindi.jpg') }}" alt="Mountains" style="width:100%"></a>
+						</div>
+					  </div>
+                </div>
+            </div>
+        </main>
+        <!-- Footer-->
+        
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+
+
+{%endblock%}
